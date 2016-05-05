@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+
+	color: grey;
+	font-size: 30px;
+	font-weight: bold, underline;
+	width: 100%;
+	text-align: center;
+
+}
+
+#red, #blue, #yellow, #green {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 1000px;
+	box-shadow: 2px 2px 2px #888888;
+	margin: 10px;
+
+}
+
+#red {
+	background: red;
+	margin-left: 33%;
+}
+
+#blue {
+	background: blue;
+}
+
+#yellow {
+	background: yellow;
+}
+
+#green {
+	background: green;
+}
+
+#text, #answer {
+text-align: center;
+margin-top: 20px;
+}
